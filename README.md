@@ -46,20 +46,22 @@ A simple backend application built using **Node.js**, **Express.js**, and **Mong
 
 ## ⚙️ How to Run Locally
 
-1. Clone the repository:
-   ```bash
-   git clone git@github.com:Muneesh1929/mini-whatsapp-backend.git
+# Clone the repository
+git clone git@github.com:Muneesh1929/mini-whatsapp-backend.git
 
-Navigate to the project directory:
+# Navigate to the project directory
 cd mini-whatsapp-backend
 
-Install dependencies:
+# Install dependencies
 npm install
 
-Make sure MongoDB is running locally
+# Make sure MongoDB is running locally
 
-Start the server:
+# Start the server
 nodemon index.js
+# or
+node index.js
 
-Open your browser and visit:
+# Open in browser
 http://localhost:8080/chats
+
